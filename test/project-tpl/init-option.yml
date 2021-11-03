@@ -1,4 +1,4 @@
-template-tag: <? ?>
+# template-tag: <? ?>
 
 filter:
   op1:
@@ -21,7 +21,7 @@ data:
         }
       }
 
-    conf1v2: |
+    conf1v2: |-
       function foo() {
         alert(2)
       }

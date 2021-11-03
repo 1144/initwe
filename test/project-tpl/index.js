@@ -1,6 +1,6 @@
 console.log('hello world')
 
-<?= conf1 ?>
+  <?=] conf1 ?>
 
 <?= 可配置项2 ?>
 

@@ -1,8 +1,9 @@
 git: https://git.corp.hetao101.com/client-fe/htfe-tools
 
-local: ../project-tpl
+local: ../project-tpl/
+# local: ../
 
-# src: project-foo
+# src: project-tpl/
 
 dest: ./
 
@@ -11,12 +12,18 @@ overwrite: true
 report: false
 
 filter:
-  - -*
-  - index.js -> /
-  - packages/util -> /util
+  - -**
+  - index.js
+  - packages/util
+
+transfer:
+  - index.js -> abc/index.js
+  - packages/util -> util
 
 data:
 
-  可配置项2: 可配置项2的值1
+  # 可配置项2: 可配置项2的值1
 
   可配置项3: conf3v1
+
+  conf1: conf1v1
