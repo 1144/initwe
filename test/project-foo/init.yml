@@ -1,7 +1,6 @@
-git: https://git.corp.hetao101.com/client-fe/htfe-tools
-
-local: ../project-tpl/
-# local: ../
+from: https://git.corp.hetao101.com/client-fe/htfe-tools
+# from: ../project-tpl/
+# from: ../
 
 # src: project-tpl/
 
