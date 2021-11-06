@@ -1,14 +1,14 @@
 {
   "name": "initwe",
-  "version": "0.0.1",
-  "description": "init whatever",
+  "version": "0.5.0",
+  "description": "initialize whatever",
   "type": "module",
   "main": "index.js",
   "bin": {
     "initwe": "./index.js"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "DEBUG=1 initwe test/project-tpl --dest=test/my-project --report"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
     "axios": "^0.24.0",
     "jszip": "^3.7.1",
     "micromatch": "^4.0.4",
-    "request": "^2.88.2",
     "small-tpl": "^3.0.0",
     "yaml": "^2.0.0-8"
   }
