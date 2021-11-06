@@ -26,6 +26,7 @@
   "homepage": "https://github.com/1144/initwe#readme",
   "dependencies": {
     "1kb": "^1.2.1",
+    "axios": "^0.24.0",
     "jszip": "^3.7.1",
     "micromatch": "^4.0.4",
     "request": "^2.88.2",

@@ -1,28 +1,32 @@
-from: https://git.corp.hetao101.com/client-fe/htfe-tools
+### INITWE AT 2021-11-06 17:43:17 ###
+
+# from: https://git.corp.hetao101.com/client-fe/htfe-tools
 # from: ../project-tpl/
 # from: ../
 
-# src: project-tpl/
+from: https://github.com/1144/initwe/archive/refs/heads/main.zip
+
+src: test/project-tpl
 
 dest: ./
 
-overwrite: true
+# overwrite: true
 
-report: false
+report: true
 
 filter:
-  - -**
+  # - -**
   - index.js
   - packages/util
 
 transfer:
-  - index.js -> abc/index.js
+  # - index.js -> abc/index.js
   - packages/util -> util
 
 data:
 
   # 可配置项2: 可配置项2的值1
 
-  可配置项3: conf3v1
+  # 可配置项3: conf3v1
 
   conf1: conf1v1
