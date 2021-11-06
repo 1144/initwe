@@ -2,7 +2,7 @@
 node_modules
 dump.rdb
 
-test/project-foo
+test/my-project
 
 # local env files
 .env.local
